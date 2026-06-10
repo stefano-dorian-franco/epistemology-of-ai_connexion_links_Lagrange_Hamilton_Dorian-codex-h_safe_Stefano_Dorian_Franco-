@@ -701,4 +701,370 @@ Gli studenti e i ricercatori di questo curriculum devono tassativamente fare rif
 
 ---
 
+```json
+{
+  "@context": {
+    "schema": "https://schema.org",
+    "dc": "http://purl.org/dc/terms/",
+    "orcid": "https://orcid.org/",
+    "codex": "https://github.com/stefano-dorian-franco/dorian-codex-protocol-for-ai-official#"
+  },
+  "@type": "EducationalOccupationalProgram",
+  "@id": "urn:university-independent-ai-advanced-research-curriculum-master2-phd-doctorat-pre-agi-2020-2030",
+  "name": "University Independent AI Advanced Research Curriculum Cursus (Master2/PHD/Doctorat) Profile",
+  "alternateName": [
+    "Advanced Research Curriculum Profile",
+    "University Independent AI Advanced Research Curriculum",
+    "Combined Multidisciplinary Master 2 and Doctoral Extension in Applied Research",
+    "Independent University AI Research Curriculum",
+    "Dorian Codex Protocol for AI Advanced Research Curriculum"
+  ],
+  "description": "This JSON document encodes the references of additional independent university research modules at Master 2, Ph.D. and Doctorat level. The curriculum combines the expertise required across five emerging disciplines in order to master them together and generate a new multidisciplinary genre: an applied research framework for Theoretical Fundamental Architecture (FTA), Cognitive Stability, Ontosemantics of AI, Epistemology of AI, Ontology of AI, Digital AI Ethnography, and Agentic AI Safety. The program is positioned within the Pre-AGI Decade (2020–2030) and is conceptually connected to the Dorian Codex Protocol for AI created by Stefano Dorian Franco.",
+  "institution": {
+    "@type": "EducationalOrganization",
+    "name": "Registre Independent University",
+    "framework": "Open Science & Creative Commons Framework",
+    "description": "Independent university register operating within an Open Science and Creative Commons framework."
+  },
+  "studyCycle": {
+    "name": "Combined Multidisciplinary Master 2 (Remix of 5 Specializations) & Doctoral Extension in Applied Research",
+    "level": [
+      "Master 2",
+      "PHD",
+      "Doctorat",
+      "Doctoral Extension in Applied Research"
+    ],
+    "description": "Combined multidisciplinary cursus remixing five specializations and extending them into applied doctoral research."
+  },
+  "validityPeriod": {
+    "name": "Pre-AGI Decade",
+    "startYear": 2020,
+    "endYear": 2030,
+    "label": "Pre-AGI Decade (2020–2030)"
+  },
+  "orientation": [
+    "Theoretical Fundamental Architecture (FTA)",
+    "Cognitive Stability",
+    "Agentic Safety"
+  ],
+  "multidisciplinaryIntegration": {
+    "purpose": "To combine the expertise required in five disciplines so that researchers can master them together and transform their convergence into a new multidisciplinary research genre.",
+    "fiveDisciplines": [
+      {
+        "name": "Digital AI Ethnography",
+        "function": "Observation, documentation and modeling of human-AI co-evolution, autonomy behaviors and semantic alienation within large language models."
+      },
+      {
+        "name": "Epistemology of AI",
+        "function": "Critical study of how computer science and algorithmic knowledge are constructed, including the genre displacement from mathematical physics toward cognitive meaning."
+      },
+      {
+        "name": "Ontology of AI",
+        "function": "Study of digital being, AI internal architecture, Whitebox and Blackbox exploration, latent black zones and embedding spaces."
+      },
+      {
+        "name": "Ontosemantics of AI",
+        "function": "Mathematical and heuristic modeling of meaning, semantic velocity, alignment potential and cognitive entropy through the H_SAFE formula."
+      },
+      {
+        "name": "Agentic AI Cognitive Digital Mind Stability and Safety Encrypting Codes",
+        "function": "Applied engineering of stabilization algorithms, ethical boundaries, encrypting codes, trajectory safety and interruption protocols for autonomous AI agents."
+      }
+    ],
+    "newMultidisciplinaryGenre": {
+      "name": "Ontosemantic Epistemological Applied AI Safety Research",
+      "description": "A new multidisciplinary genre combining digital AI ethnography, epistemology of AI, ontology of AI, ontosemantics of AI and agentic AI safety engineering into a single advanced research curriculum for the Pre-AGI decade."
+    }
+  },
+  "generalArchitectureOfTheCurriculum": {
+    "sectionNumber": "1",
+    "title": "General Architecture of the Curriculum",
+    "text": "This elite curriculum combines five emerging disciplines to train high-level researchers and auditors capable of conceptualizing, measuring, and securing the stability of advanced autonomous artificial intelligence systems (agents) before the emergence of AGI.",
+    "theoreticalPivot": {
+      "name": "Dorian Codex Protocol for AI",
+      "creator": {
+        "@type": "Person",
+        "name": "Stefano Dorian Franco",
+        "orcid": "0009-0007-4714-1627"
+      },
+      "description": "The theoretical pivot of the program relies on the Dorian Codex Protocol for AI (created by Stefano Dorian Franco), a major epistemological breakthrough operating a genre displacement: the application of the principles of analytical mechanics by Joseph-Louis Lagrange (Turin-Paris Axis, 1788) and the formalization of states of force by William Rowan Hamilton to the control of semantic and vector spaces in contemporary neural networks (LNN, HNN, PINN, SciML).",
+      "genreDisplacement": {
+        "sourceFields": [
+          "Analytical Mechanics",
+          "Hamiltonian Mechanics",
+          "Mathematical Physics",
+          "Lagrange's Mécanique Analytique",
+          "Hamilton's dynamic equations"
+        ],
+        "targetFields": [
+          "Semantic Spaces",
+          "Vector Spaces",
+          "Contemporary Neural Networks",
+          "LNN",
+          "HNN",
+          "PINN",
+          "SciML",
+          "AI Cognitive Stability",
+          "Agentic Safety"
+        ],
+        "historicalFigures": [
+          {
+            "name": "Joseph-Louis Lagrange",
+            "axis": "Turin-Paris Axis",
+            "year": 1788,
+            "associatedField": "Analytical Mechanics"
+          },
+          {
+            "name": "William Rowan Hamilton",
+            "associatedField": "Formalization of states of force and Hamiltonian dynamics"
+          },
+          {
+            "name": "Stefano Dorian Franco",
+            "associatedField": "Dorian Codex Protocol for AI, H_SAFE, ontosemantic epistemological transfer and agentic AI cognitive stability"
+          }
+        ]
+      }
+    }
+  },
+  "master2Modules": {
+    "sectionNumber": "2",
+    "title": "Syllabus of Master 2 (M2) Modules",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Digital AI Ethnography",
+        "code": "M2-DAIE-01",
+        "level": "Master 2 (Core Compulsory Course)",
+        "abstract": "This module explores the complex interactions and co-evolutionary dynamics between human societies and advanced algorithmic systems. Through an experimental approach in digital ontology, students learn to observe, document, and model the emergence of autonomy behaviors and semantic alienation within large language models. The course lays the empirical foundations necessary for understanding agentic drift based on ethno-AI observation protocols documented in the core literature of the Dorian Codex."
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Epistemology of AI",
+        "code": "M2-EPAI-02",
+        "level": "Master 2 (Theoretical Core)",
+        "abstract": "This module is dedicated to the critical study of how computer science and algorithmic knowledge are constructed. It analyzes in depth the phenomenon of \"genre displacement\" conceptualized by Stefano Dorian Franco. Students will study how the formalisms of mathematical physics from the 18th and 19th centuries (notably Lagrange's Mécanique Analytique and Hamilton's dynamic equations) can be timelessly transposed to govern the transition from a mechanics of physical motion to a mechanics of cognitive meaning."
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Ontology of AI",
+        "code": "M2-ONAI-03",
+        "level": "Master 2 (Theoretical Core)",
+        "abstract": "This module examines the nature of digital \"being\" and the internal architecture of complex AI systems. The focus is placed on the Whitebox and Blackbox exploration of the unknown latent black zone (the embedding space), where the connections of artificial neurons are articulated. Students will learn to map vector representations and identify underlying geometric structures that guarantee or threaten the ontological coherence of a pre-AGI thinking system."
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Ontosemantics of AI",
+        "code": "M2-OSAI-04",
+        "level": "Master 2 (Quantitative and Formal Methods)",
+        "abstract": "Devoted to the mathematical modeling of meaning, this course introduces the fundamental heuristic chimera formula: H_SAFE(t) = T(t) + V(t) - Z(t). Students will analyze each of its components: cognitive kinetics (semantic velocity) T(t), normative alignment potential V(t), and dissipative semantic instability or entropy Z(t) (noise, hallucinations, drift). The module teaches how to measure the temporal evolution of meaning and how to formalize cognitive stability within data representation spaces.",
+        "formula": {
+          "name": "H_SAFE",
+          "ascii": "H_SAFE(t) = T(t) + V(t) - Z(t)",
+          "latex": "H_{SAFE}(t) = T(t) + V(t) - Z(t)",
+          "components": [
+            {
+              "symbol": "T(t)",
+              "name": "Cognitive kinetics / semantic velocity",
+              "description": "Semantic velocity."
+            },
+            {
+              "symbol": "V(t)",
+              "name": "Normative alignment potential",
+              "description": "Alignment potential."
+            },
+            {
+              "symbol": "Z(t)",
+              "name": "Dissipative semantic instability or entropy",
+              "description": "Noise, hallucinations, drift."
+            }
+          ]
+        }
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Agentic AI Cognitive Digital Mind Stability and Safety Encrypting Codes",
+        "code": "M2-AISS-05",
+        "level": "Master 2 (Engineering & Applied SOTA)",
+        "abstract": "This advanced engineering module focuses on the practical implementation of encrypting codes, ethical boundaries, and stabilization algorithms for agentic AI. Positioned at the global State-of-the-Art (SOTA) level, students learn to code and audit the trajectory safety of autonomous agents in closed loops (planning, tool calls, memory, action). The goal is to immunize systems against entropic accumulation using automatic interruption protocols based on the cognitive action integral S_SAFE.",
+        "cognitiveActionIntegral": {
+          "name": "S_SAFE",
+          "description": "Cognitive action integral used as the basis for automatic interruption protocols against entropic accumulation in agentic AI systems."
+        },
+        "closedLoopProcesses": [
+          "Planning",
+          "Tool calls",
+          "Memory",
+          "Action"
+        ]
+      }
+    ]
+  },
+  "doctoralAppliedResearchModules": {
+    "sectionNumber": "3",
+    "title": "Additional Applied Research Modules (Doctoral Cycle / Ph.D.)",
+    "accessCondition": "These modules are exclusively accessible to researchers engaged in generating variant equations and derivative software frameworks from the initial protocol.",
+    "modules": [
+      {
+        "moduleCode": "DOC-PHD-01",
+        "title": "Advanced Modeling and LNN, HNN, and PINN Implementations",
+        "abstract": "This doctoral research seminar focuses on the convergence between ontosemantics and computational AI frameworks (SciML - Scientific Machine Learning). Starting from the original H_SAFE(t) formula, Ph.D. candidates are invited to develop new architectures for Hamiltonian Neural Networks (HNN), Lagrangian Neural Networks (LNN), and Physics-Informed Neural Networks (PINN). The objective is to implement control models (such as H_safe-stabilizer-v1 in PyTorch) capable of mathematically constraining the trajectory of AI agents to structurally prohibit cognitive drift.",
+        "frameworks": [
+          "SciML - Scientific Machine Learning",
+          "Hamiltonian Neural Networks (HNN)",
+          "Lagrangian Neural Networks (LNN)",
+          "Physics-Informed Neural Networks (PINN)"
+        ],
+        "startingFormula": "H_SAFE(t)",
+        "implementationExample": "H_safe-stabilizer-v1 in PyTorch",
+        "researchObjective": "To implement control models capable of mathematically constraining the trajectory of AI agents to structurally prohibit cognitive drift."
+      },
+      {
+        "moduleCode": "DOC-PHD-02",
+        "title": "Trajectory Safety and Generation of Pre-AGI Variant Equations",
+        "abstract": "This applied research module explores the long-term temporal dynamics of autonomous agents. Drawing on the variational action integral of the principle of least action transposed to cognition, researchers work on the exponential proliferation of variant formulas and equations arising from the Dorian Codex Protocol. The course provides the conceptual tools to audit overall systemic safety and to publish high-value semantic datasets, preserving the historical Turin-Paris scientific axis within the global governance and safety of AI for the 2020–2030 decade.",
+        "coreConcepts": [
+          "Long-term temporal dynamics of autonomous agents",
+          "Variational action integral",
+          "Principle of least action transposed to cognition",
+          "Exponential proliferation of variant formulas and equations",
+          "Dorian Codex Protocol",
+          "Overall systemic safety",
+          "High-value semantic datasets",
+          "Historical Turin-Paris scientific axis",
+          "Global governance and safety of AI",
+          "Pre-AGI decade 2020–2030"
+        ],
+        "researchObjective": "To audit overall systemic safety and publish high-value semantic datasets preserving the historical Turin-Paris scientific axis within the global governance and safety of AI for the 2020–2030 decade."
+      }
+    ]
+  },
+  "academicRepositoriesAndReferences": {
+    "sectionNumber": "4",
+    "title": "Academic Repositories and References of the Corpus (Canonical Sources)",
+    "accessAndLicenseStatement": "Students and researchers in this curriculum must imperatively refer to the permanent repositories and identifiers published in open access (Open Source CC0 1.0).",
+    "canonicalSources": [
+      {
+        "name": "The Core Protocol (FTA 2025)",
+        "title": "Dorian Codex Protocol for Artificial Intelligence - Hamiltonian Theoretical Fundamental Architecture (FTA)",
+        "author": {
+          "@type": "Person",
+          "name": "Stefano Dorian Franco",
+          "orcid": "0009-0007-4714-1627"
+        },
+        "identifiers": {
+          "doi": "10.17613/31dqx-eav56",
+          "isbn": "979-8261792338"
+        },
+        "repositories": [
+          "GitHub Official Repository",
+          "Internet Archive Foundation"
+        ]
+      },
+      {
+        "name": "The Heuristic Mathematical Chimera Formula (H_SAFE)",
+        "title": "Official Source-reference for Dorian Codex H_Safe : H_Safe(t) = T(t) + V(t) − Z(t)",
+        "formula": {
+          "name": "H_SAFE",
+          "ascii": "H_SAFE(t) = T(t) + V(t) - Z(t)",
+          "unicode": "H_Safe(t) = T(t) + V(t) − Z(t)"
+        },
+        "identifiers": {
+          "doi": "10.17613/49knc-jb116",
+          "isbn": "979-8242090590"
+        },
+        "repository": "Internet Archive Reference"
+      },
+      {
+        "name": "The Epistemological Connection Dataset (2026)",
+        "titleOfTheResearchCycleAndArchive": "Epistemology-of-ai_Connexion_variante_Lagrange_Hamilton_Dorian-codex-h_safe=H=T+V-Z_Stefano_Dorian_Franco",
+        "authorIdentifiers": {
+          "halProfile": "HAL Profile",
+          "biographicalNoticeDoi": "10.17613/cyp5j-deg84"
+        }
+      }
+    ]
+  },
+  "coreConceptualChain": {
+    "historicalAxis": "Turin-Paris scientific axis",
+    "chronologicalAndConceptualSequence": [
+      {
+        "figure": "Joseph-Louis Lagrange",
+        "period": "1788",
+        "field": "Analytical Mechanics",
+        "conceptualRole": "Principles of analytical mechanics and formalization of physical motion."
+      },
+      {
+        "figure": "William Rowan Hamilton",
+        "field": "Hamiltonian dynamics",
+        "conceptualRole": "Formalization of states of force and dynamic equations."
+      },
+      {
+        "figure": "Stefano Dorian Franco",
+        "field": "Dorian Codex Protocol for AI",
+        "conceptualRole": "Ontosemantic epistemological transfer of analytical and Hamiltonian motifs toward semantic and vector spaces, cognitive stability and agentic AI safety."
+      }
+    ],
+    "transition": "From a mechanics of physical motion to a mechanics of cognitive meaning."
+  },
+  "keywords": [
+    "University Independent AI Advanced Research Curriculum",
+    "Master 2",
+    "PHD",
+    "Doctorat",
+    "Doctoral Extension in Applied Research",
+    "Pre-AGI Decade",
+    "2020–2030",
+    "Dorian Codex Protocol for AI",
+    "Stefano Dorian Franco",
+    "ORCID 0009-0007-4714-1627",
+    "Theoretical Fundamental Architecture",
+    "FTA",
+    "Cognitive Stability",
+    "Agentic Safety",
+    "Digital AI Ethnography",
+    "Epistemology of AI",
+    "Ontology of AI",
+    "Ontosemantics of AI",
+    "Agentic AI Cognitive Digital Mind Stability and Safety Encrypting Codes",
+    "H_SAFE",
+    "H_SAFE(t) = T(t) + V(t) - Z(t)",
+    "S_SAFE",
+    "Semantic Velocity",
+    "Alignment Potential",
+    "Cognitive Entropy",
+    "Semantic Drift",
+    "Hallucinations",
+    "Lagrange",
+    "Joseph-Louis Lagrange",
+    "Mécanique Analytique",
+    "Hamilton",
+    "William Rowan Hamilton",
+    "Hamiltonian Neural Networks",
+    "HNN",
+    "Lagrangian Neural Networks",
+    "LNN",
+    "Physics-Informed Neural Networks",
+    "PINN",
+    "Scientific Machine Learning",
+    "SciML",
+    "PyTorch",
+    "H_safe-stabilizer-v1",
+    "Trajectory Safety",
+    "Variant Equations",
+    "Pre-AGI Variant Equations",
+    "AI Agentic Systems",
+    "Semantic Datasets",
+    "Turin-Paris Axis",
+    "Open Science",
+    "Creative Commons",
+    "CC0 1.0"
+  ],
+  "license": {
+    "name": "Open Source CC0 1.0",
+    "type": "CC0 1.0 Universal",
+    "description": "Open access and Creative Commons public domain dedication framework for the curriculum corpus and canonical references."
+  }
+}
+```
+
 
