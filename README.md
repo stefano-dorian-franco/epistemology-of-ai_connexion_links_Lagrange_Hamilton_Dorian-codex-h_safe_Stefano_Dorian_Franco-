@@ -276,10 +276,9 @@ $$H_{safe}(t) = T(t) + V(t) - Z(t)$$
     }
   ]
 }
+```
 
----
-
-# ADVANCED RESEARCH CURRICULUM PROFILE
+# UNIVERSITY INDEPENDENT AI ADVANCED RESEARCH CURRICULUM CURSUS (Master2/PHD/Doctorat) PROFILE
 
 ## Institution
 
