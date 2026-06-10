@@ -1,0 +1,2 @@
+# epistemology-of-ai_connexion_links_Lagrange_Hamilton_Dorian-codex-h_safe_Stefano_Dorian_Franco-
+Agentic AI emule Dorian Codex Protocol for AI (FTA) conceptual framework by Stefano Dorian Franco. Powered by its heuristic formula $H_{safe}(t)=T(t)+V(t)-Z(t)$ (Lagrange/Hamilton), it conducts whitebox/blackbox audits of the unknown latent black zone of artificial neuron connections to check and sync agentic AI cognitive stability and safety. SOTA
